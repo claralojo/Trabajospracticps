@@ -1,0 +1,153 @@
+.container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* Modo claro */
+body {
+  background: pink;
+  color: #333;
+  font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Cute Font', sans-serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Pixelify Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Zen Antique Soft', serif;
+}
+
+/* Modo oscuro */
+body.dark-mode {
+  background: palevioletred; 
+  color: #fff;
+  font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Cute Font', sans-serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Pixelify Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Zen Antique Soft', serif;
+}
+
+
+/* Estilos Header */
+
+
+
+
+
+
+.LogoHelloKitty {
+  height: 250px;
+  width: 250px;
+  display: block;
+margin: 0 auto;
+}
+
+
+header{
+  background-color: #DE9FFF;
+  border-radius: 29px;
+  padding: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+
+header:hover{
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+
+
+
+
+/* Estilos Hello Kitty */
+body.hello-kitty {
+  --pink: #FF69B4;
+  --light-pink: #FFB6C1;
+  
+  background-color: var(--pink);
+  color: var(--white);
+}
+
+body.hello-kitty .navbar {
+  background-color: var(--light-pink);
+}
+
+
+/* Botón */
+.boton {
+  background-color: #FFB6C1;
+  color: #FF69B4;
+  border: 2px solid #FF69B4;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  transition: all 0.2s ease;
+  margin-left: 50px;
+}
+
+/* Hover y focus */
+.boton:hover, 
+.boton:focus {
+  background-color: #FF69B4;
+  color: #FFB6C1;
+} 
+
+/* Activo */
+.boton.active {
+  background-color: #FF69B4;
+  color: #FFB6C1;
+}
+
+.card-img-top{
+  height: 200px;
+  width: 200px;
+  align-items: center;
+}
+
+
+
+/* CSS para el footer */
+
+footer {
+  background-color: #CF75FF; 
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+footer p {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+footer li {
+  margin: 0 10px;
+}
+
+footer a {
+  color: #333;
+  font-size: 1.2em;
+}
+
+footer a:hover {
+  color: #980e3c;
+}
+
+footer img{
+  margin: 5px;
+}
